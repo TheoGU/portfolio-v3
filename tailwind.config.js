@@ -6,6 +6,10 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            backgroundImage: (theme) => ({
+                pattern:
+                    "url('/assets/pattern.svg'), linear-gradient(to right, #a29bfe, #74b9ff)",
+            }),
             height: {
                 "10vh": "10vh",
                 "20vh": "20vh",
@@ -34,7 +38,9 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            translate: ["active"],
+        },
     },
     plugins: [],
 };
