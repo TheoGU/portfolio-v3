@@ -1,5 +1,5 @@
 import Head from "next/head";
-import WoHeader from "../Layouts/WoHeader";
+import WoHeader from "../layouts/WoHeader";
 
 export default function Home() {
     return (
