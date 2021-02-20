@@ -2,9 +2,9 @@ import WoLink from "../components/WoLink";
 
 const WoHeader = () => {
     return (
-        <header className="h-90vh text-white">
+        <header className="h-90vh text-white ">
             <main className="flex items-center h-full">
-                <section className="pl-12 xl:pl-48 h-96 flex justify-center flex-col">
+                <section className="pl-12 h-96 flex-col justify-center">
                     <h1 className="text-2xl ">Hello, I'm Théo Guinebertier.</h1>
                     <h2 className="text-5xl font-semibold mt-2">
                         Developer web & mobile
