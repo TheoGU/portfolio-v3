@@ -5,7 +5,7 @@ import WoLink from "../components/WoLink";
 export default function Home() {
     return (
         <div>
-            <div className="bg-pattern w-screen h-screen">
+            <div className="bg-pattern h-screen">
                 <Head>
                     <title>Theo Guinebertier</title>
                     <link
@@ -51,10 +51,7 @@ export default function Home() {
                     </header>
                 </main>
             </div>
-            <footer
-                className="w-screen bg-red-100"
-                style={{ backgroundColor: "rgba(162, 155, 254,0.5)" }}
-            >
+            <footer style={{ backgroundColor: "rgba(162, 155, 254,0.5)" }}>
                 <main className="container mx-auto flex items-center justify-around">
                     <p className="text-grey-100">Made in 🇫🇷 with 💜</p>
                     <a href="https://github.com/TheoGU">
